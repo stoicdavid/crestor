@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+#content{
+	width:1024px;
+	height:768px;
+	position: absolute;
+}
+
+#fondo{
+	background:url(../images/apertura.jpg) 0 0 no-repeat;
+	width:1024px;
+	height:668px;
+	position:absolute;
+	top:0;
+	display:none;}
+	
+#logo{
+	display:none;
+	width:453px;
+	height:114px;
+	position:absolute;
+	top:0;
+	}
+	
+#texto1{
+	width:264px;
+	height:140px;
+	position:absolute;
+	top:0;
+	left:91px;
+	display:none;}
+	
+#texto2{
+	width:664px;
+	height:69px;
+	position:absolute;
+	top:440px;
+	right:38px;
+	display:none;}
+	
+#fondoGrafica{
+	background:url(../images/grafica.png);
+	top:106px;
+	right:85px;
+	height:390px;
+	width:520px;
+	display:none;
+	position:absolute;}
+	
+	
+	
