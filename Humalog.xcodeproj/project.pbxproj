@@ -10,9 +10,6 @@
 		840BBB101509E09800B681A7 /* SlideProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BBB0F1509E09800B681A7 /* SlideProvider.m */; };
 		840BBB171509E42400B681A7 /* WebContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BBB161509E42400B681A7 /* WebContentView.m */; };
 		840BBB26150AFAA900B681A7 /* AnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BBB25150AFAA900B681A7 /* AnnotationView.m */; };
-		849891F2152151200038DAA7 /* ONSET and OFFSET study, 2009.png in Resources */ = {isa = PBXBuildFile; fileRef = 849891EF152151200038DAA7 /* ONSET and OFFSET study, 2009.png */; };
-		849891F3152151200038DAA7 /* PLATO trial, 2009.png in Resources */ = {isa = PBXBuildFile; fileRef = 849891F0152151200038DAA7 /* PLATO trial, 2009.png */; };
-		849891F4152151200038DAA7 /* Wallentin Spanish.png in Resources */ = {isa = PBXBuildFile; fileRef = 849891F1152151200038DAA7 /* Wallentin Spanish.png */; };
 		84C9DF8A15009F6700E16B3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C9DF8915009F6700E16B3B /* UIKit.framework */; };
 		84C9DF8C15009F6700E16B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C9DF8B15009F6700E16B3B /* Foundation.framework */; };
 		84C9DF8E15009F6700E16B3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C9DF8D15009F6700E16B3B /* CoreGraphics.framework */; };
@@ -30,14 +27,13 @@
 		84C9E01C1500A01000E16B3B /* ToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9DFEF1500A01000E16B3B /* ToolbarView.m */; };
 		84E05FB9151298FC009FE5AF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E05FB8151298FC009FE5AF /* iCarousel.m */; };
 		84E05FBC151299AD009FE5AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E05FBB151299AD009FE5AF /* QuartzCore.framework */; };
-		84E05FC115129B3B009FE5AF /* ONSET and OFFSET study, 2009.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84E05FBE15129B3B009FE5AF /* ONSET and OFFSET study, 2009.pdf */; };
-		84E05FC215129B3B009FE5AF /* PLATO trial, 2009.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84E05FBF15129B3B009FE5AF /* PLATO trial, 2009.pdf */; };
-		84E05FC315129B3B009FE5AF /* Wallentin Spanish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84E05FC015129B3B009FE5AF /* Wallentin Spanish.pdf */; };
 		84E0600B1512BFF0009FE5AF /* WhitepaperProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0600A1512BFF0009FE5AF /* WhitepaperProvider.m */; };
 		84E0602015131827009FE5AF /* WhitepaperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0601F15131827009FE5AF /* WhitepaperController.m */; };
 		84E06023151319A8009FE5AF /* Viewport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E06022151319A8009FE5AF /* Viewport.m */; };
 		84E64C27151D1388001F7E0A /* ThumbnailStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E64C26151D1388001F7E0A /* ThumbnailStackView.m */; };
 		84E64C2A151D141B001F7E0A /* SlideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E64C29151D141B001F7E0A /* SlideController.m */; };
+		AA18A1621536AEA000E903F5 /* REFERENCIAS_CRESTOR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA18A1601536AEA000E903F5 /* REFERENCIAS_CRESTOR.pdf */; };
+		AA18A1631536AEA000E903F5 /* IPP_CRESTOR.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA18A1611536AEA000E903F5 /* IPP_CRESTOR.pdf */; };
 		AA3A3D92152AD235005EDBF5 /* slide1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA3A3D86152AD235005EDBF5 /* slide1.jpg */; };
 		AA3A3D93152AD235005EDBF5 /* slide2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA3A3D87152AD235005EDBF5 /* slide2.jpg */; };
 		AA3A3D94152AD235005EDBF5 /* slide3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA3A3D88152AD235005EDBF5 /* slide3.jpg */; };
@@ -110,9 +106,6 @@
 		840BBB24150AFAA900B681A7 /* AnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationView.h; sourceTree = "<group>"; };
 		840BBB25150AFAA900B681A7 /* AnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationView.m; sourceTree = "<group>"; };
 		840BBB2A150C675D00B681A7 /* ContentDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentDisplayDelegate.h; path = Protocols/ContentDisplayDelegate.h; sourceTree = "<group>"; };
-		849891EF152151200038DAA7 /* ONSET and OFFSET study, 2009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ONSET and OFFSET study, 2009.png"; sourceTree = "<group>"; };
-		849891F0152151200038DAA7 /* PLATO trial, 2009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLATO trial, 2009.png"; sourceTree = "<group>"; };
-		849891F1152151200038DAA7 /* Wallentin Spanish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wallentin Spanish.png"; sourceTree = "<group>"; };
 		84C9DF8515009F6700E16B3B /* Crestor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crestor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C9DF8915009F6700E16B3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84C9DF8B15009F6700E16B3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,9 +133,6 @@
 		84E05FB7151298FC009FE5AF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		84E05FB8151298FC009FE5AF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		84E05FBB151299AD009FE5AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		84E05FBE15129B3B009FE5AF /* ONSET and OFFSET study, 2009.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ONSET and OFFSET study, 2009.pdf"; sourceTree = "<group>"; };
-		84E05FBF15129B3B009FE5AF /* PLATO trial, 2009.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PLATO trial, 2009.pdf"; sourceTree = "<group>"; };
-		84E05FC015129B3B009FE5AF /* Wallentin Spanish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Wallentin Spanish.pdf"; sourceTree = "<group>"; };
 		84E060001512B1EB009FE5AF /* DocumentDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DocumentDataSource.h; path = Protocols/DocumentDataSource.h; sourceTree = "<group>"; };
 		84E060011512B511009FE5AF /* AnnotationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationDataSource.h; path = Protocols/AnnotationDataSource.h; sourceTree = "<group>"; };
 		84E060091512BFF0009FE5AF /* WhitepaperProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhitepaperProvider.h; sourceTree = "<group>"; };
@@ -155,6 +145,8 @@
 		84E64C26151D1388001F7E0A /* ThumbnailStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailStackView.m; sourceTree = "<group>"; };
 		84E64C28151D141B001F7E0A /* SlideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideController.h; sourceTree = "<group>"; };
 		84E64C29151D141B001F7E0A /* SlideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideController.m; sourceTree = "<group>"; };
+		AA18A1601536AEA000E903F5 /* REFERENCIAS_CRESTOR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = REFERENCIAS_CRESTOR.pdf; sourceTree = "<group>"; };
+		AA18A1611536AEA000E903F5 /* IPP_CRESTOR.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IPP_CRESTOR.pdf; sourceTree = "<group>"; };
 		AA3A3D86152AD235005EDBF5 /* slide1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide1.jpg; sourceTree = "<group>"; };
 		AA3A3D87152AD235005EDBF5 /* slide2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide2.jpg; sourceTree = "<group>"; };
 		AA3A3D88152AD235005EDBF5 /* slide3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide3.jpg; sourceTree = "<group>"; };
@@ -254,9 +246,6 @@
 		849891EE152151200038DAA7 /* previews */ = {
 			isa = PBXGroup;
 			children = (
-				849891EF152151200038DAA7 /* ONSET and OFFSET study, 2009.png */,
-				849891F0152151200038DAA7 /* PLATO trial, 2009.png */,
-				849891F1152151200038DAA7 /* Wallentin Spanish.png */,
 			);
 			path = previews;
 			sourceTree = "<group>";
@@ -430,10 +419,9 @@
 		84E05FBD15129B3B009FE5AF /* pdfs */ = {
 			isa = PBXGroup;
 			children = (
+				AA18A1601536AEA000E903F5 /* REFERENCIAS_CRESTOR.pdf */,
+				AA18A1611536AEA000E903F5 /* IPP_CRESTOR.pdf */,
 				849891EE152151200038DAA7 /* previews */,
-				84E05FBE15129B3B009FE5AF /* ONSET and OFFSET study, 2009.pdf */,
-				84E05FBF15129B3B009FE5AF /* PLATO trial, 2009.pdf */,
-				84E05FC015129B3B009FE5AF /* Wallentin Spanish.pdf */,
 			);
 			path = pdfs;
 			sourceTree = "<group>";
@@ -555,12 +543,6 @@
 			files = (
 				84C9DF9415009F6700E16B3B /* InfoPlist.strings in Resources */,
 				AAAF60CD152C366200FE2D03 /* slides in Resources */,
-				84E05FC115129B3B009FE5AF /* ONSET and OFFSET study, 2009.pdf in Resources */,
-				84E05FC215129B3B009FE5AF /* PLATO trial, 2009.pdf in Resources */,
-				84E05FC315129B3B009FE5AF /* Wallentin Spanish.pdf in Resources */,
-				849891F2152151200038DAA7 /* ONSET and OFFSET study, 2009.png in Resources */,
-				849891F3152151200038DAA7 /* PLATO trial, 2009.png in Resources */,
-				849891F4152151200038DAA7 /* Wallentin Spanish.png in Resources */,
 				AA3A3D92152AD235005EDBF5 /* slide1.jpg in Resources */,
 				AA3A3D93152AD235005EDBF5 /* slide2.jpg in Resources */,
 				AA3A3D94152AD235005EDBF5 /* slide3.jpg in Resources */,
@@ -609,6 +591,8 @@
 				AA8DD686152D2D61001BBB3C /* over_menu8.png in Resources */,
 				AA8DD687152D2D61001BBB3C /* over_pluma.png in Resources */,
 				AA8DD688152D2D61001BBB3C /* pluma.png in Resources */,
+				AA18A1621536AEA000E903F5 /* REFERENCIAS_CRESTOR.pdf in Resources */,
+				AA18A1631536AEA000E903F5 /* IPP_CRESTOR.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

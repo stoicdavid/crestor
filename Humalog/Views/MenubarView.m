@@ -139,11 +139,12 @@
         NSLog(@"%d",button.tag);
         [self removeSelectorButtons:sectionButtons];
         [self setSectionButtons:[self setMenu:2] isMenuSelector:NO withSectionNumber:1];
-    
+        [self.delegate menubarViewDidSelectCategoryButton:button withIndex:0];
 
     }else if(button.tag==91){
         [self removeSelectorButtons:sectionButtons];
         [self setSectionButtons:[self setMenu:3] isMenuSelector:NO withSectionNumber:2];
+        [self.delegate menubarViewDidSelectCategoryButton:button withIndex:4];
 
     }
     self.delegate = delegate;    
@@ -162,7 +163,7 @@
     for (UIButton *buttons in sectionButtons)
         buttons.selected = NO;
         
-    //button.selected = YES;
+    button.selected = YES;
     if (button.tag==1) {
         [self.delegate menubarViewDidSelectCategoryButton:button withIndex:[sectionButtons indexOfObject:button]];
     }else if (button.tag==2){
