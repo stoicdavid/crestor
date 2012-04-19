@@ -83,6 +83,7 @@
 		AA8DD687152D2D61001BBB3C /* over_pluma.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8DD661152D2D61001BBB3C /* over_pluma.png */; };
 		AA8DD688152D2D61001BBB3C /* pluma.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8DD662152D2D61001BBB3C /* pluma.png */; };
 		AAAF60CD152C366200FE2D03 /* slides in Resources */ = {isa = PBXBuildFile; fileRef = 840BBB081509CFE200B681A7 /* slides */; };
+		AAC8D82E153FE64600FB9DD2 /* crestor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC8D82D153FE64600FB9DD2 /* crestor.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +196,7 @@
 		AA8DD660152D2D61001BBB3C /* over_menu8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = over_menu8.png; sourceTree = "<group>"; };
 		AA8DD661152D2D61001BBB3C /* over_pluma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = over_pluma.png; sourceTree = "<group>"; };
 		AA8DD662152D2D61001BBB3C /* pluma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pluma.png; sourceTree = "<group>"; };
+		AAC8D82D153FE64600FB9DD2 /* crestor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crestor.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +431,7 @@
 		84E05FC415129FC1009FE5AF /* toolbars */ = {
 			isa = PBXGroup;
 			children = (
+				AAC8D82D153FE64600FB9DD2 /* crestor.jpg */,
 				AA8DD63D152D2D61001BBB3C /* barra_herramientas.png */,
 				AA8DD63E152D2D61001BBB3C /* barra_menu.jpg */,
 				AA8DD63F152D2D61001BBB3C /* btn_apertura.png */,
@@ -593,6 +596,7 @@
 				AA8DD688152D2D61001BBB3C /* pluma.png in Resources */,
 				AA18A1621536AEA000E903F5 /* REFERENCIAS_CRESTOR.pdf in Resources */,
 				AA18A1631536AEA000E903F5 /* IPP_CRESTOR.pdf in Resources */,
+				AAC8D82E153FE64600FB9DD2 /* crestor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

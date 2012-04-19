@@ -154,10 +154,9 @@
 {
     if (button.selected) {
         button.selected = NO;
-        
-        [self.delegate menubarViewDidDeselectCategoryButton:button withIndex:[sectionButtons indexOfObject:button]];
-
-        return;
+        //[self.delegate menubarViewDidDeselectCategoryButton:button withIndex:[sectionButtons indexOfObject:button]];
+        [self.delegate menubarViewDidSelectCategoryButton:button withIndex:[sectionButtons indexOfObject:button]];
+        //return;
     }
     
     for (UIButton *buttons in sectionButtons)
@@ -256,12 +255,12 @@
                 [self removeSelectorButtons:sectionButtons];
                 [self setSectionButtons:[self setMenu:1] isMenuSelector:YES withSectionNumber:0];
                 self.delegate=delegate;
-                aperturaButton.enabled = NO;
+                aperturaButton.enabled = YES;
                 cierreButton.enabled = YES;
                 break;
             case NavigationPositionLastDocument:
                 aperturaButton.enabled = YES;
-                cierreButton.enabled = NO;
+                cierreButton.enabled = YES;
                 break;
             case NavigationPositionOtherDocument:
                 aperturaButton.enabled = YES;
@@ -269,8 +268,8 @@
                 break;
             case NavigationPositionUndefined:
             default:
-                aperturaButton.enabled = NO;
-                cierreButton.enabled = NO;
+                aperturaButton.enabled = YES;
+                cierreButton.enabled = YES;
                 break;
         }
     }

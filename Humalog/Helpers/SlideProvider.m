@@ -112,9 +112,24 @@
 }
 
 // Delegation
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    webContentView.hidden=YES;
+    
+}
+
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
-    [self.delegate contentViewDidFinishLoad];
+    [self performSelector:@selector(delay) withObject:nil afterDelay:.5];
+    
+    
 }
+
+- (void)delay{
+    
+    [self.delegate contentViewDidFinishLoad];
+    webContentView.hidden=NO;
+}
+
 
 @end
